@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+      let counter = 0;
+function vowels (value) {
+    let char = '';
+    
+    for (let i = 0; i < value.length; i++) {
+        char = value[i].toLowerCase();
+        if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+            counter++;
+        }
+        
+    } 
+    return counter;
+}
+document.write(vowels("welcome"));
+
+    </script>
+</body>
+</html>
