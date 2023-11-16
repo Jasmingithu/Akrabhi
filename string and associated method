@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str1 = "Jasmin";
+        let str2 = "Mohapatra"
+ 
+        console.log(str1);
+        console.log(str2);
+        console.log(str1.length);
+        console.log(str2.length);
+        let str3 = 'Jasmin lives in talcher';
+        b = str3.slice(0,5);
+        c = str3.slice(6,9);
+        d = str3.slice(10);
+ 
+        console.log(b);
+        console.log(c);
+        console.log(d);
+
+  </script>
+    
+</body>
+</html>
